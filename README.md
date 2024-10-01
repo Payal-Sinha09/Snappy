@@ -7,8 +7,6 @@
 - [Setup Instructions](#setup-instructions)
 - [Project Screenshots](#project-screenshots)
 - [Usage](#usage)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
 - [Contact](#contact)
 
 ## Overview
