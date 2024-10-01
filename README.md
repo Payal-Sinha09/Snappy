@@ -57,9 +57,11 @@ npm install
 
 - **Step 3**: Configure Environment Variables  
 Create a .env file in the server directory and add your configuration settings, including your MongoDB connection string and JWT secret.  
-Here’s a sample of what to include:  
+Here’s a sample of what to include:
+```plaintext
 MONGO_URI=your_mongo_connection_string  
 JWT_SECRET=your_jwt_secret_key  
+```
 
 - **Step 4**: Start the Backend Server  
 You can now start the backend server using the following command:   
