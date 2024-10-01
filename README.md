@@ -45,11 +45,15 @@ This section guides you through setting up the backend server for the Snappy Cha
 
 - **Step 1**: Navigate to the Server Folder  
 After cloning the repository, move into the server directory:  
+```bash
 cd server  
+```
 
 - **Step 2**: Install Required Dependencies  
-Install the necessary Node.js packages using npm:  
-npm install  
+Install the necessary Node.js packages using npm:
+```bash
+npm install
+```
 
 - **Step 3**: Configure Environment Variables  
 Create a .env file in the server directory and add your configuration settings, including your MongoDB connection string and JWT secret.  
@@ -59,7 +63,9 @@ JWT_SECRET=your_jwt_secret_key
 
 - **Step 4**: Start the Backend Server  
 You can now start the backend server using the following command:   
+```bash
 npm start  
+```
 The backend server will run on http://localhost:5000 by default. Make sure your MongoDB server is running, or you're connected to a cloud MongoDB service.  
 
 ## Troubleshooting
