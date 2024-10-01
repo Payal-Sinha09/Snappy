@@ -42,33 +42,46 @@ Snappy Chat Application is a real-time chat platform built using the MERN stack 
    cd snappy-chat-app
 
 2. **Backend Setup**
-This section guides you through setting up the backend server for the Snappy Chat Application.
+This section guides you through setting up the backend server for the Snappy Chat Application.  
 
-### Step 1: Navigate to the Server Folder
-After cloning the repository, move into the server directory:
-cd server
 
-### Step 2: Install Required Dependencies
-Install the necessary Node.js packages using npm:
-npm install
+Step 1: Navigate to the Server Folder  
 
-### Step 3: Configure Environment Variables
-Create a .env file in the server directory and add your configuration settings, including your MongoDB connection string and JWT secret. Here’s a sample of what to include:
-env
-Copy code
-MONGO_URI=your_mongo_connection_string
-JWT_SECRET=your_jwt_secret_key
+After cloning the repository, move into the server directory:  
 
-### Step 4: Start the Backend Server
-You can now start the backend server using the following command:
-npm start
-The backend server will run on http://localhost:5000 by default. Make sure your MongoDB server is running, or you're connected to a cloud MongoDB service.
+cd server  
+
+
+Step 2: Install Required Dependencies  
+
+Install the necessary Node.js packages using npm:  
+
+npm install  
+
+
+Step 3: Configure Environment Variables  
+
+Create a .env file in the server directory and add your configuration settings, including your MongoDB connection string and JWT secret.  
+ Here’s a sample of what to include:  
+
+MONGO_URI=your_mongo_connection_string  
+
+JWT_SECRET=your_jwt_secret_key  
+
+
+Step 4: Start the Backend Server  
+
+You can now start the backend server using the following command:   
+
+npm start  
+
+The backend server will run on http://localhost:5000 by default. Make sure your MongoDB server is running, or you're connected to a cloud MongoDB service.  
+
 
 ## Troubleshooting
 Ensure that Node.js and MongoDB are installed and configured correctly.
 Check the console for any error messages during the installation or startup process and resolve them accordingly.
-vbnet
-Copy code
+
 
 # Project Screenshots
 ## 1. Login Screen
