@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+Snappy Chat Application
+Table of Contents
+Overview
+Features
+Technologies Used
+Setup Instructions
+Project Screenshots
+Usage
+Future Enhancements
+License
+Contact
+Overview
+Snappy Chat Application is a real-time chat platform built using the MERN stack (MongoDB, Express, React, Node.js) that allows users to send and receive messages instantly. The app supports multiple chat rooms and real-time messaging functionality using WebSockets.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Real-time messaging with WebSocket (Socket.IO)
+User authentication (Login/Sign-up)
+Create and join multiple chat rooms
+Responsive user interface
+Backend API for managing chat data
+Technologies Used
+Frontend: React, CSS
+Backend: Node.js, Express.js
+Database: MongoDB
+Real-time Communication: Socket.IO
+Other: JWT (for authentication), bcrypt (for password hashing)
+Setup Instructions
+Prerequisites
+Node.js installed on your system
+MongoDB installed locally or access to a cloud MongoDB database (e.g., MongoDB Atlas)
+Steps to Run the Project
+Clone the Repository:
 
-## Available Scripts
+bash
+Copy code
+git clone https://github.com/YourUsername/snappy-chat-app.git
+cd snappy-chat-app
+Backend Setup:
 
-In the project directory, you can run:
+Navigate to the server folder:
+bash
+Copy code
+cd server
+Install the required dependencies:
+bash
+Copy code
+npm install
+Create a .env file and add your MongoDB connection string, JWT secret, and any other environment variables required:
+env
+Copy code
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_jwt_secret_key
+Start the backend server:
+bash
+Copy code
+npm start
+Frontend Setup:
 
-### `npm start`
+Navigate to the client folder:
+bash
+Copy code
+cd client
+Install the frontend dependencies:
+bash
+Copy code
+npm install
+Start the React app:
+bash
+Copy code
+npm start
+Access the App:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The app should be running at http://localhost:3000 for the frontend and http://localhost:5000 for the backend.
+Project Screenshots
+1. Login Page
+## Login Screen
+![Login Screen](https://github.com/Payal-Sinha09/Snappy/blob/master/images/Screenshot%20(156).png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Signup Page
+## Signup Screen
+![Signup Screen](https://github.com/Payal-Sinha09/Snappy/blob/master/images/Screenshot%20(159).png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Set Avatar
+## Avatar Setup
+![Avatar Setup](https://github.com/Payal-Sinha09/Snappy/blob/master/images/Screenshot%20(160).png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Chat Room Interface
+## Chat Room
+![Chat Room](https://github.com/Payal-Sinha09/Snappy/blob/master/images/Screenshot%20(161).png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Real-time Messaging
+## Messaging
+![Messaging](https://github.com/Payal-Sinha09/Snappy/blob/master/images/Screenshot%20(162).png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Usage
+1. User Registration and Login:
+Users can sign up with their email and password.
+Passwords are securely hashed using bcrypt and stored in MongoDB.
+2. Real-time Messaging:
+Users can create and join chat rooms.
+Messages are exchanged in real time using Socket.IO for seamless communication.
+3. Message Persistence:
+All chat history is stored in MongoDB, so users can view past conversations when they log back in.
+4. Authentication:
+JWT (JSON Web Tokens) is used to authenticate users, ensuring secure and protected messaging.
+Future Enhancements
+Direct Messaging: Implement one-on-one messaging between users.
+Typing Indicators: Show when a user is typing in a chat room.
+Message Encryption: Add end-to-end encryption for secure messaging.
+Push Notifications: Implement real-time push notifications for new messages.
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contact
+For any questions or feedback, feel free to contact me:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Email: payal@example.com
+Portfolio: myportfoliopayal.netlify.app
