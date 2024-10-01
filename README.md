@@ -106,5 +106,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 # Contact
 For any questions or feedback, feel free to contact me:
-**Email:** payal@example.com
-**Portfolio:** myportfoliopayal.netlify.app
+**Email:** payal09apr@gmail.com
+**Portfolio:** [myportfoliopayal.netlify.app](https://myportfoliopayal.netlify.app/)
